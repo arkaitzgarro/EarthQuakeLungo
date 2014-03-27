@@ -1,0 +1,12 @@
+{{#each earthquakes}}
+    <li class="anchor">{{date}}</li>
+    {{#each earthquakes}}
+    <li class="arrow selectable thumb big {{className mag}}" data-id="{{_id}}">
+        <span class="magnitude">{{mag}}</span>
+        <div>
+            <strong>{{title}}</strong>
+            <small><span class="icon time"></span> {{formatTime time}}</small>
+        </div>
+    </li>
+    {{/each}}
+{{/each}}

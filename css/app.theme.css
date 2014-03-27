@@ -1,0 +1,66 @@
+/**
+ * Stylesheet
+ *
+ * @namespace Lungo.Theme
+ * @class Base
+ *
+ * @author Arkaitz Garro <arkaitz.garro@gmail.com> || @arkaitzgarro
+ */
+
+.bg-white {
+  background-color: #FFF;
+}
+
+.main-loading {
+    height: 50%;
+
+    -webkit-transform: translateY(25%);
+       -moz-transform: translateY(25%);
+            transform: translateY(25%);
+}
+.main-loading .loading {
+    font-size: 24px;
+    top:50%;
+    margin-top: -1em;
+}
+
+section .list li {
+    padding-top: 5px;
+}
+
+section .list li.anchor, section .list li a.anchor {
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+}
+
+section .list li.green {
+  -webkit-box-shadow: inset 4px 0px 0px green;
+  -moz-box-shadow: inset 4px 0px 0px green;
+  box-shadow: inset 4px 0px 0px green;
+}
+
+section .list li.orange {
+  -webkit-box-shadow: inset 4px 0px 0px orange;
+  -moz-box-shadow: inset 4px 0px 0px orange;
+  box-shadow: inset 4px 0px 0px orange;
+}
+
+section .list li.red {
+  -webkit-box-shadow: inset 4px 0px 0px red;
+  -moz-box-shadow: inset 4px 0px 0px red;
+  box-shadow: inset 4px 0px 0px red;
+}
+
+.list li .magnitude{
+    width: 65px;
+    height: 50px;
+    font-size:1.6em;
+    line-height:1.5em;
+    text-align:center;
+    display: inline-block;
+}
+
+.list li div {
+    width: 80%;
+}

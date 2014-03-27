@@ -1,0 +1,38 @@
+<section id="earthquake-detail" data-transition="slide">
+    <header data-back="chevron-left" data-title="Earthquake detail">
+        <nav class="left">
+            <a href="#" data-view-section="back">
+                <span class="icon chevron-left"></span>
+            </a>
+        </nav>
+        <span class="title centered">Earthquake detail</span>
+        <nav class="on-right">
+            <a href="#" id="share" data-action="share" class="button theme"><span class="icon share"></span></a>
+        </nav>
+    </header>
+
+    <article id="earthquake-detail" class="active indented scroll">
+        <div class="wrapper framed">
+            <div class="bg-white indented">
+                <div class="row">
+                    <div class="on-right" data-count="{{mag}} units"><span class="tag count">{{mag}}</span></div>
+                    <h2 class="text bold big left" data-template="title">{{title}}</h2>
+                </div>
+                <span class="margin_right" data-icon="calendar" data-template="date">{{date}}</span> <span class="margin_right" data-icon="clock" data-template="time">{{time}}</span>
+                <div id="description" data-template="description">{{description}}</div>
+                <a href="{{link}}" data-icon="tag" target="_blank" data-template="link">View more info</a>
+                <div class="detailMap"></div>
+            </div>
+        </div>
+    </article>
+
+    <article id="share-options">
+        <div class="wrapper">
+            <ul>
+                <li><a href="#" class="button anchor margin bottom" data-label="Twitter" data-icon="brand twitter"></a></li>
+                <li><a href="#" class="button anchor margin bottom" data-label="Facebook" data-icon="brand facebook"></a></li>
+                <li><a href="#" class="button anchor margin bottom" data-label="Google Plus" data-icon="brand google-plus"></a></li>
+            </ul>
+        </div>
+    </article>
+</section>
